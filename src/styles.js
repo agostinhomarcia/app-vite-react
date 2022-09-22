@@ -81,7 +81,7 @@ export const ListItem = styled.div`
     }
 
     @media (max-width: 750px) {
-    width: 70%;
+    width: 90%;
     
     }
 
