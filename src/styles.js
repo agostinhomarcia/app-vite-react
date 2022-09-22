@@ -21,7 +21,10 @@ export const ContainerList = styled.div`
         padding:0;
         margin-top: 60px;
     }
+    @media (max-width: 750px) {
+    width: 80%;
     
+    }
 `;
 
 export const Input = styled.input`
@@ -32,6 +35,10 @@ export const Input = styled.input`
     width: 342px;
     outline: none;
 
+    @media (max-width: 750px) {
+    width: 70%;
+    margin-bottom:10px;
+    }
     
 
 `;
@@ -54,6 +61,7 @@ export const Button = styled.button`
         opacity:0.4;
 
     }
+    
 `;
 
 export const ListItem = styled.div`
@@ -71,6 +79,12 @@ export const ListItem = styled.div`
     li{
         list-style:none;
     }
+
+    @media (max-width: 750px) {
+    width: 70%;
+    
+    }
+
 
 
 `;
